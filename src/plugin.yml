@@ -1,0 +1,16 @@
+name: floAuctionWeb
+version: 1.alpha.0.0
+description: floAucton addon for web auctions.
+author: flobi
+website: http://dev.bukkit.org/server-mods/floauctionweb/
+depend: [floAuction]
+
+main: com.flobi.floAuction.floAuctionWeb
+database: false
+
+commands:
+  webauction:
+    description: General auction command.
+    permissions: auction.start
+    usage: Type /<command> for instructions.
+
